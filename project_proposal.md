@@ -2,7 +2,7 @@
 
 ## Team Members:
 - Akshay Joshi
-- Akash Sakpal
+- Akash Sapkal
 - Dhruv Shah
 - Harshil Rathod
 - Mariya Mansuri
