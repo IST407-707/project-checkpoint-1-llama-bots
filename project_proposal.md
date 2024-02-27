@@ -37,6 +37,12 @@ VoiceSphere will be developed as a web application leveraging "Llava" for its ex
 #### Budget and Resources
 The budget will cover expenses related to software development tools, cloud services for application hosting and data processing, and any requisite licenses for "Llava" and "Whisper". The project will mobilize a skilled team comprising developers, designers, and testers dedicated to bringing VoiceSphere to fruition.
 
-
 #### Expected Outcomes
 Upon completion, VoiceSphere is anticipated to redefine the landscape of AI voice assistants, offering enhanced user interaction through sophisticated natural language processing and speech recognition. This breakthrough will not only elevate the standards for voice assistant capabilities but also pave the way for further technological advancements in this field.
+
+## References
+
+1. Grozdić, Đ. T., & Jovičić, S. T. (2017). Whispered speech recognition using deep denoising autoencoder and inverse filtering. _IEEE/ACM Transactions on Audio, Speech, and Language Processing_.
+2. Sharma, Y., Sharan, V., & Arora, J. (2021, December). The Study Of Voice Bots And Its Impact On Human Welfare. In _Proceedings of the International Conference on Advances in Management Practices_.
+3. Liu, S., Cheng, H., Liu, H., Zhang, H., Li, F., Ren, T., ... & Li, C. (2023). Llava-plus: Learning to use tools for creating multimodal agents.
+4. Wang, S., Yang, C. H. H., Wu, J., & Zhang, C. (2023). Can whisper perform speech-based in-context learning.
