@@ -36,6 +36,19 @@ VoiceSphere will be developed as a web application leveraging "Llava" for its ex
 
 #### Budget and Resources
 The budget will cover expenses related to software development tools, cloud services for application hosting and data processing, and any requisite licenses for "Llava" and "Whisper". The project will mobilize a skilled team comprising developers, designers, and testers dedicated to bringing VoiceSphere to fruition.
+| Week            | Details                                        | Milestone                               |
+|-----------------|------------------------------------------------|-----------------------------------------|
+| Mar 1 - Mar 7   | Identify VoiceSphere datasets, Define project scope | Present Proposal, Datasets Identified   |
+| Mar 8 - Mar 14  | Conduct VoiceSphere stakeholder analysis, EDA, Begin visualizations | Complete Stakeholder Analysis and initial data exploration |
+| Mar 15 - Mar 21 | Preprocess VoiceSphere data                    | VoiceSphere data is preprocessed and cleaned |
+| Mar 22 - Mar 28 | Write initial project description              | Detailed VoiceSphere data description   |
+| Mar 29 - Apr 4  | Decide on classifiers for voice recognition    | Preliminary Descriptive Analysis on voice data |
+| Apr 5 - Apr 11  | Conduct preliminary model runs for voice recognition | VoiceSphere Project Checkpoint 1       |
+| Apr 12 - Apr 18 | Tune hyperparameters for voice model           | Report on Model Progress                |
+| Apr 19 - Apr 25 | Begin drafting VoiceSphere project report      | First Draft of VoiceSphere Checkpoint 2 |
+| Apr 26 - May 2  | Finalize model tuning and continue report work | VoiceSphere Project Checkpoint 3, Draft report |
+| May 3 - May 9   | Complete and refine final project report       | VoiceSphere Final Report Submitted     |
+
 
 #### Expected Outcomes
 Upon completion, VoiceSphere is anticipated to redefine the landscape of AI voice assistants, offering enhanced user interaction through sophisticated natural language processing and speech recognition. This breakthrough will not only elevate the standards for voice assistant capabilities but also pave the way for further technological advancements in this field.
