@@ -34,6 +34,15 @@ VoiceSphere will be developed as a web application leveraging "Llava" for its ex
 3. **Development Phase 2:** Broaden the assistant's capabilities by incorporating additional tasks and external service integrations.
 4. **Testing and Refinement:** Execute comprehensive testing to ensure the assistant's reliability and gather user feedback for iterative improvement.
 
+#### Project Stakeholders
+
+- **Project Manager**: Manages project timelines, budgets, and overall progress.
+- **End-Users**: Consumers or businesses who will use VoiceSphere, providing crucial feedback.
+- **Investors or Sponsors**: Provide funding and are interested in the financial success of the project.
+- **Technology Partners**: Suppliers of technologies like "Llava" and "Whisper" LLMs.
+- **Data Scientists and AI Experts**: Specialists advising on the technical aspects of AI and machine learning.
+- **External Developers**: If applicable, developers interested in building applications on top of VoiceSphere's platform.
+
 #### Budget and Resources
 The budget will cover expenses related to software development tools, cloud services for application hosting and data processing, and any requisite licenses for "Llava" and "Whisper". The project will mobilize a skilled team comprising developers, designers, and testers dedicated to bringing VoiceSphere to fruition.
 
