@@ -36,6 +36,7 @@ VoiceSphere will be developed as a web application leveraging "Llava" for its ex
 
 #### Budget and Resources
 The budget will cover expenses related to software development tools, cloud services for application hosting and data processing, and any requisite licenses for "Llava" and "Whisper". The project will mobilize a skilled team comprising developers, designers, and testers dedicated to bringing VoiceSphere to fruition.
+
 | Week            | Details                                        | Milestone                               |
 |-----------------|------------------------------------------------|-----------------------------------------|
 | Mar 1 - Mar 7   | Identify VoiceSphere datasets, Define project scope | Present Proposal, Datasets Identified   |
