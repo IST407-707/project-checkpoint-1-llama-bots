@@ -9,16 +9,18 @@
 - Neha Sharma
 
 ## Introduction
-The goal of our efforts is to effectively recognize tiny patterns indicative of various health conditions in medical imaging, hence improving radiological diagnoses through the application of machine learning techniques. Through the analysis of radiographic imaging datasets such as MIMIC-CXR, our goal is to create sophisticated algorithms that can identify early indicators of abnormalities in organs such as the brain, lungs, and breasts. Our method combines segmentation and pattern recognition techniques to improve illness tracking and improve diagnostic accuracy.
+The goal of our efforts is to effectively recognize tiny patterns indicative of various health conditions in medical imaging, hence improving radiological diagnoses through the application of machine learning techniques. Through the analysis of radiographic imaging datasets such as the National Institutes of Health Clinical Center's dataset, our goal is to create sophisticated algorithms that can identify early indicators of abnormalities in organs such as the brain, lungs, and breasts. Our method combines segmentation and pattern recognition techniques to improve illness tracking and improve diagnostic accuracy.
 
 ## Objectives
 - Train deep learning models for pattern detection in radiography pictures using the National Institutes of Health Clinical Center's dataset.
 - Put pattern segmentation strategies into practice to facilitate quicker disease progression tracking and diagnosis.
 - Assess the accuracy, sensitivity, specificity, and clinical utility of the model's performance.
-- Offer radiologists an intuitive user interface so they can connect with the tools and incorporate them into their daily tasks.
+- Investigate the integration of multimodal data, such as clinical notes or patient demographics, with radiography images to enrich diagnostic insights and enhance model performance.
 
 ## Literature Review
-Current radiological practices rely on human observation and interpretation of medical images, which can be prone to errors and oversights. Although machine learning techniques have been increasingly applied in medical imaging, there is still room for improvement in accurately identifying subtle patterns indicative of diseases. Our project aims to address this gap by leveraging advanced machine learning algorithms and comprehensive datasets like MIMIC-CXR to enhance radiological diagnoses.
+In current radiological practices, diagnoses heavily rely on human observation and interpretation of medical images, primarily chest x-rays. However, this approach is inherently subjective and susceptible to errors, variability, and oversights, leading to potential diagnostic inaccuracies and delays in patient care. Despite advancements in medical imaging technology, the interpretation of these images remains a complex task, often requiring specialized expertise and extensive training. Machine learning techniques have emerged as promising tools to aid radiologists in image analysis, offering the potential to improve diagnostic accuracy and efficiency.
+
+However, existing machine learning approaches still face challenges in accurately identifying subtle patterns indicative of diseases, particularly in the context of chest x-ray interpretation. While some studies have explored the application of machine learning algorithms in medical imaging, there remains a gap in achieving consistently reliable diagnoses. Our project aims to address this gap by leveraging advanced machine learning algorithms and comprehensive datasets, such as the recently released NIH Clinical Center chest x-ray dataset, to enhance radiological diagnoses. By combining novel machine learning methodologies with rich and diverse datasets, we seek to develop a robust and reliable framework for automated chest x-ray interpretation, ultimately improving patient outcomes and advancing the field of radiology.
 
 ## Stakeholders
 Stakeholders for a project can vary depending on the specific context, goals, and scope of the project. Here's a list of potential stakeholders:
@@ -50,7 +52,15 @@ The National Institutes of Health Clinical Center has recently made available ov
 
 Despite the apparent simplicity of interpreting chest x-ray images, the process involves intricate reasoning and necessitates knowledge spanning anatomy, physiology, and pathology. The initiative aims to empower researchers to teach computers to interpret chest x-rays accurately, augmenting radiologists' diagnostic capabilities and potentially uncovering overlooked findings. 
 
-Links:
+Data Examples: 
+
+<img width="180" alt="image" src="https://github.com/IST407-707/project-checkpoint-1-llama-bots/assets/78223679/2f9033ab-2408-4aa2-ab46-d65c17fe3d81"> <img width="180" alt="image" src="https://github.com/IST407-707/project-checkpoint-1-llama-bots/assets/78223679/1bca8cbe-4dd8-4cbf-8f25-7164101b8d42"> <img width="180" alt="image" src="https://github.com/IST407-707/project-checkpoint-1-llama-bots/assets/78223679/b0260187-a7de-44b4-89e0-27ea33a218b2">
+
+
+
+
+Data Links:
+
 https://nihcc.box.com/shared/static/vfk49d74nhbxq3nqjg0900w5nvkorp5c.gz,
 https://nihcc.box.com/shared/static/i28rlmbvmfjbl8p2n3ril0pptcmcu9d1.gz,
 https://nihcc.box.com/shared/static/f1t00wrtdk94satdfb9olcolqx20z2jp.gz,
@@ -84,8 +94,10 @@ Integration of expert evaluations into our model assessment process ensures that
 | 4/9-4/23 | Integration and testing | Integration into radiology workflow tested |
 
 ## Risks
-1. **Data Availability and Quality:** The MIMIC-CXR dataset's dependability and quality must be guaranteed to build a model. By carrying out stringent data cleansing and validation procedures, we will mitigate this risk.
+1. **Data Availability and Quality:** The National Institutes of Health Clinical Center dataset's dependability and quality must be guaranteed to build a model. By carrying out stringent data cleansing and validation procedures, we will mitigate this risk.
+   
 2. **Model Overfitting:** There's a chance to create extremely complicated models that might not translate well to new data. We'll use strategies like regularization and cross-validation to reduce this risk.
+   
 3. **Clinical Relevance:** Depending on the particular healthcare setting, our models' clinical usefulness may differ. To make sure that our models meet clinical requirements and standards, we will conduct thorough research to avoid any discrepancies.
 
 ## References
