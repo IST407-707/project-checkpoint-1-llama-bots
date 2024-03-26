@@ -12,7 +12,7 @@
 The goal of our efforts is to effectively recognize tiny patterns indicative of various health conditions in medical imaging, hence improving radiological diagnoses through the application of machine learning techniques. Through the analysis of radiographic imaging datasets such as MIMIC-CXR, our goal is to create sophisticated algorithms that can identify early indicators of abnormalities in organs such as the brain, lungs, and breasts. Our method combines segmentation and pattern recognition techniques to improve illness tracking and improve diagnostic accuracy.
 
 ## Objectives
-- Train deep learning models for pattern detection in radiography pictures using the MIMIC-CXR dataset.
+- Train deep learning models for pattern detection in radiography pictures using the National Institutes of Health Clinical Center's dataset.
 - Put pattern segmentation strategies into practice to facilitate quicker disease progression tracking and diagnosis.
 - Assess the accuracy, sensitivity, specificity, and clinical utility of the model's performance.
 - Offer radiologists an intuitive user interface so they can connect with the tools and incorporate them into their daily tasks.
@@ -46,10 +46,34 @@ Stakeholders for a project can vary depending on the specific context, goals, an
 
 ## Data and Methods
 ### Data
-We will utilize the MIMIC-CXR dataset, which contains 371,920 chest X-rays associated with 227,943 imaging studies from 65,079 patients, for model training and validation. Additionally, we may explore other publicly available medical imaging datasets to augment our analysis.
+The National Institutes of Health Clinical Center has recently made available over 100,000 anonymized chest x-ray images and associated data to the scientific community. This extensive dataset, sourced from more than 30,000 patients, provides a valuable resource for researchers worldwide, facilitating the development of machine learning algorithms for disease detection and diagnosis. Prior to release, the dataset underwent meticulous screening to ensure the removal of personally identifiable information, upholding patient privacy standards. 
+
+Despite the apparent simplicity of interpreting chest x-ray images, the process involves intricate reasoning and necessitates knowledge spanning anatomy, physiology, and pathology. The initiative aims to empower researchers to teach computers to interpret chest x-rays accurately, augmenting radiologists' diagnostic capabilities and potentially uncovering overlooked findings. 
+
+Links:
+https://nihcc.box.com/shared/static/vfk49d74nhbxq3nqjg0900w5nvkorp5c.gz,
+https://nihcc.box.com/shared/static/i28rlmbvmfjbl8p2n3ril0pptcmcu9d1.gz,
+https://nihcc.box.com/shared/static/f1t00wrtdk94satdfb9olcolqx20z2jp.gz,
+https://nihcc.box.com/shared/static/0aowwzs5lhjrceb3qp67ahp0rd1l1etg.gz,
+https://nihcc.box.com/shared/static/v5e3goj22zr6h8tzualxfsqlqaygfbsn.gz,
+https://nihcc.box.com/shared/static/asi7ikud9jwnkrnkj99jnpfkjdes7l6l.gz,
+https://nihcc.box.com/shared/static/jn1b4mw4n6lnh74ovmcjb8y48h8xj07n.gz,
+https://nihcc.box.com/shared/static/tvpxmn7qyrgl0w8wfh9kqfjskv6nmm1j.gz,
+https://nihcc.box.com/shared/static/upyy3ml7qdumlgk2rfcvlb9k6gvqq2pj.gz,
+https://nihcc.box.com/shared/static/l6nilvfa9cg3s28tqv1qc1olm3gnz54p.gz,
+https://nihcc.box.com/shared/static/hhq8fkdgvcari67vfhs7ppg2w6ni4jze.gz,
+https://nihcc.box.com/shared/static/ioqwiy20ihqwyr8pf4c24eazhh281pbu.gz
 
 ### Methods
-To guarantee consistency and quality, we shall preprocess the data as part of our modeling strategy. The next step will involve experimenting with other deep learning architectures, like recurrent neural networks (RNNs) and convolutional neural networks (CNNs), to create models that can precisely identify patterns in medical images that indicate sickness. These models' performance will be assessed using industry-standard measures, and expert evaluations will verify their clinical value.
+To ensure consistency and quality in our diagnostic process, a data preprocessing strategy will be implemented as a fundamental aspect of our modeling approach. Data preprocessing encompasses techniques such as normalization, image resizing, noise reduction, and data augmentation, which serve to standardize the data, eliminate noise, and enhance the signal-to-noise ratio, thereby enhancing the performance of our deep learning models.
+
+Following data preprocessing, the next step involves experimentation with various deep learning architectures, including recurrent neural networks (RNNs) and convolutional neural networks (CNNs). RNNs are adept at sequential data analysis, making them suitable for tasks like time-series analysis or sequential pattern recognition, which are pertinent in radiological image analysis. Conversely, CNNs excel at capturing spatial patterns in images, making them well-suited for tasks such as image classification and object detection.
+
+Through exploration of these diverse architectures, the objective is to develop models capable of accurately identifying patterns in medical images indicative of various illnesses or abnormalities. These models will undergo training using a sizable dataset of labeled radiological images, enabling them to discern complex patterns and correlations between image features and clinical outcomes.
+
+The performance evaluation of our models will employ industry-standard measures such as accuracy, precision, recall, and F1-score. Additionally, expert evaluations will be conducted wherein radiologists and medical professionals will assess the clinical value of the models. This evaluation process entails comparing the model predictions with the ground truth diagnoses provided by experienced radiologists.
+
+Integration of expert evaluations into our model assessment process ensures that our models not only achieve high performance metrics but also demonstrate clinical relevance and utility in real-world healthcare settings. This iterative approach, encompassing experimentation, evaluation, and refinement, aims to develop highly effective diagnostic tools that assist medical professionals in making accurate and timely diagnoses, thereby enhancing patient outcomes and healthcare delivery.
 
 ## Project Plan (Tentative)
 | Period | Activity | Milestone |
