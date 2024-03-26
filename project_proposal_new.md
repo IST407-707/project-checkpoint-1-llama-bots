@@ -20,6 +20,30 @@ The goal of our efforts is to effectively recognize tiny patterns indicative of 
 ## Literature Review
 Current radiological practices rely on human observation and interpretation of medical images, which can be prone to errors and oversights. Although machine learning techniques have been increasingly applied in medical imaging, there is still room for improvement in accurately identifying subtle patterns indicative of diseases. Our project aims to address this gap by leveraging advanced machine learning algorithms and comprehensive datasets like MIMIC-CXR to enhance radiological diagnoses.
 
+## Stakeholders
+Stakeholders for a project can vary depending on the specific context, goals, and scope of the project. Here's a list of potential stakeholders:
+
+1. **Medical Professionals**: Radiologists, physicians, and other healthcare professionals involved in diagnosing medical conditions using radiological imaging. They are the primary users and beneficiaries of the enhanced diagnostic capabilities.
+
+2. **Patients**: Individuals who undergo radiological imaging for medical diagnosis and treatment. They are the ultimate recipients of accurate and timely diagnoses, which can impact their treatment plans and outcomes.
+
+3. **Healthcare Institutions**: Hospitals, clinics, and medical centers where radiological imaging services are provided. These institutions may invest in and implement the technology to improve diagnostic accuracy, patient care, and operational efficiency.
+
+4. **IT and Data Science Teams**: Professionals responsible for developing, implementing, and maintaining the pattern imaging analytics technology. This includes data scientists, software engineers, and IT specialists who design and deploy the algorithms and infrastructure for image analysis.
+
+5. **Regulatory Bodies**: Government agencies and regulatory bodies responsible for overseeing healthcare practices and ensuring compliance with standards and regulations related to medical imaging, patient privacy, and data security.
+
+6. **Healthcare Administrators**: Hospital administrators, department heads, and decision-makers responsible for budgeting, resource allocation, and strategic planning. They may be involved in evaluating the cost-effectiveness and potential impact of implementing the new technology.
+
+7. **Research Institutions**: Academic institutions, research organizations, and industry partners involved in conducting research and development related to pattern imaging analytics, machine learning algorithms, and medical imaging technology.
+
+8. **Insurance Providers**: Insurance companies and payers who may have an interest in the project's outcomes, especially if the technology can lead to more accurate diagnoses, reduced treatment costs, and improved patient outcomes.
+
+9. **Ethics Committees**: Committees responsible for reviewing and approving research projects involving human subjects, ensuring that ethical standards and patient rights are upheld throughout the project.
+    
+10. **Community and Patient Advocacy Groups**: Organizations representing the interests of patients and advocating for access to quality healthcare services. They may provide input on the project's design, implementation, and potential impact on patient care and outcomes.
+
+
 ## Data and Methods
 ### Data
 We will utilize the MIMIC-CXR dataset, which contains 371,920 chest X-rays associated with 227,943 imaging studies from 65,079 patients, for model training and validation. Additionally, we may explore other publicly available medical imaging datasets to augment our analysis.
